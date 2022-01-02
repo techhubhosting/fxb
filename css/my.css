@@ -1,34 +1,10 @@
-.contact-h1{
-	color: #00FF00;
-}
-.link-color{
-	color: green;
-}
-.feature-logos{
-	height: 1000px;
-	width: 100px;
-}
-.ntv{
-height: 300px;
-	width: 150px;
-}
-.youtube-logo{
-	height: 300px;
-	width: 200px;
-}
-.ubc{
-	height: 300px;
-	width: 200px;
-}
-.youtube-channel{
-	width: 50px
-}
-.logo-edit{
-	height: 50px;
-	width: 100px;
-}
-.h1-heading{
-	
-  font-family: Roboto;
+.contact-h1{color: #00FF00;}
+.link-color{color: green;}
+.feature-logos{height: 1000px;width: 100px;}
+.ntv{height: 300px;width: 150px;}
+.youtube-logo{height: 300px;
+width: 200px;}
+.ubc{height: 300px;width: 200px;}
+.youtube-channel{width: 50px}
+.logo-edit{height: 50px;width: 100px;}
 
-}
