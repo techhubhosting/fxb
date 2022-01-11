@@ -5,14 +5,14 @@
 /* Service section bg */
 /* blog slider pagination img */
 /*----------  
- 	Google fonts  
+  Google fonts  
  ----------*/
 @import url("https://fonts.googleapis.com/css?family=Lora:400,700|Playfair+Display:400,400i,700,700i,900,900i|Poppins:300,400,500,600,700|Roboto:300,400,500,700");
 /* Global Body Style */
 body {
   color: #fff;
   background: #111111;
-  font-family: "Playfair Display", sans-serif;
+  font-family: "Work Sans", sans-serif;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-font-smoothing: antialiased;
@@ -20,7 +20,7 @@ body {
 
 /* Heading Fonts Size */
 h1, h2, h3 {
-  font-family: "Playfair Display", serif;
+font-family: 'Spline Sans', sans-serif;
   color:white;
 }
 
@@ -29,7 +29,7 @@ h1, h2 {
 }
 
 h4 {
-  font-family: "Roboto", sans-serif;
+  font-family: "Work Sans", sans-serif;
 }
 
 h1 {
@@ -49,11 +49,11 @@ h4 {
 }
 
 p {
-  font-family: "Roboto", sans-serif;
+ font-family: 'Work Sans', sans-serif;
 }
 
 /*---------- --------------
-	Themefisher help file
+  Themefisher help file
 ---------------------------*/
 a, .th-nav-btn, .btn {
   text-decoration: none;
@@ -95,9 +95,9 @@ button:hover, button:focus {
 /* Themefisher Button effect */
 .btn-main {
   border-radius: 0;
-  background:#00FF00;
-  border-color:#00FF00;
-  font-family: "Poppins", sans-serif;
+  background:grey;
+  border-color:grey;
+  font-family: "Work Sans", sans-serif;
   text-transform: uppercase;
   font-weight: 600;
   letter-spacing: 1px;
@@ -156,7 +156,7 @@ button:hover, button:focus {
 
 .solid-btn:hover {
   background: transparent;
-  color:#00FF00;
+  color:grey;
 }
 
 .post-count {
@@ -267,7 +267,7 @@ button:hover, button:focus {
 }
 
 .slick-dots li.slick-active button {
-  background:#00FF00;
+  background:grey;
 }
 
 /* /slick dots */
@@ -312,12 +312,12 @@ button:hover, button:focus {
   width: 0;
   height: 1px;
   transition: 0.5s;
-  background:#00FF00;
+  background:grey;
 }
 
 .menu li a:hover {
   text-decoration: none;
-  color:#00FF00;
+  color:grey;
 }
 
 .menu li a:hover:before {
@@ -430,7 +430,7 @@ div.loading {
   position: absolute;
   width: 6px;
   height: 6px;
-  background:#00FF00;
+  background:grey;
   left: 0px;
   top: 0px;
   border-radius: 6px;
@@ -650,12 +650,12 @@ div.loading {
   width: 0;
   height: 1px;
   transition: 0.5s;
-  background:#00FF00;
+  background:grey;
 }
 
 .footer-nav a:hover {
   text-decoration: none;
-  color:#00FF00;
+  color:grey;
 }
 
 .footer-nav a:hover:before {
@@ -671,7 +671,7 @@ div.loading {
 }
 
 .contact-address a:hover {
-  color:#00FF00;
+  color:grey;
 }
 
 /* Footer Media Link */
@@ -693,7 +693,7 @@ div.loading {
 }
 
 .footer-media-link a:hover {
-  color:#00FF00;
+  color:grey;
 }
 
 .copyright {
@@ -720,7 +720,7 @@ div.loading {
 
 .case-study .content h4 {
   padding-bottom: 13px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Spline Sans", sans-serif;
   font-size: 18px;
   text-transform: uppercase;
   color: white;
@@ -925,7 +925,7 @@ div.loading {
 }
 
 .slick-arrow:hover {
-  background:#00FF00;
+  background:grey;
 }
 
 .prevArrow {
@@ -1024,7 +1024,7 @@ div.loading {
 .features-title,
 .price {
   text-transform: uppercase;
-  font-family: "Roboto", sans-serif;
+  font-family: "Work Sans", sans-serif;
   letter-spacing: 2px;
 }
 
@@ -1099,7 +1099,7 @@ hr.hr-border {
 .table:hover .features-list i,
 .table:hover .th-btn-border,
 .table:hover .price {
-  color: #00FF00;
+  color: grey;
 }
 
 .table:hover .table-price {
@@ -1127,14 +1127,14 @@ hr.hr-border {
 }
 
 .border-effect:before {
-  border-bottom: 1px solid #00FF00;
-  border-left: 1px solid #00FF00;
+  border-bottom: 1px solid grey;
+  border-left: 1px solid grey;
   -webkit-transform-origin: 0 100%;
 }
 
 .border-effect:after {
-  border-top: 1px solid #00FF00;
-  border-right: 1px solid #00FF00;
+  border-top: 1px solid grey;
+  border-right: 1px solid grey;
   -webkit-transform-origin: 100% 0%;
 }
 
@@ -1170,7 +1170,7 @@ hr.hr-border {
   height: 100%;
   padding: 75px 23px;
   opacity: 0;
-  background: rgba(231, 190, 130, 0.9);
+  background: grey;
   transition: 0.4s;
 }
 
@@ -1192,7 +1192,7 @@ hr.hr-border {
 
 .overlay .content h4 {
   margin-bottom: 3px;
-  font-family: "Poppins", sans-serif;
+  font-family: "Spline Sans", sans-serif;
   text-transform: uppercase;
   margin: 0;
   font-weight: 500;
@@ -1254,7 +1254,7 @@ hr.hr-border {
   left: 0px;
   bottom: 0px;
   right: 0px;
-  background: #00FF00;
+  background: grey;
   opacity: 0;
   transition: 0.5s;
 }
@@ -1264,7 +1264,7 @@ hr.hr-border {
 }
 
 .service-item:hover .services-icon {
-  background: #00FF00;
+  background: grey;
   box-shadow: 0px 0px 0px 14px #191919;
 }
 
@@ -1290,7 +1290,7 @@ hr.hr-border {
   color: #fff;
   letter-spacing: 1px;
   transition: 0.5s;
-  color: #00FF00;
+  color: grey;
 }
 
 .service-title:before {
@@ -1300,7 +1300,7 @@ hr.hr-border {
   bottom: 0;
   height: 3px;
   width: 75px;
-  background: #00FF00;
+  background: grey;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
 }
@@ -1376,7 +1376,7 @@ hr.hr-border {
 
 .owl-buttons div {
   display: inline-block;
-  border: 3px solid #00FF00;
+  border: 3px solid grey;
   border-radius: 2px;
   width: 122px;
   text-indent: -99999px;
@@ -2102,7 +2102,7 @@ form .padding-left-15 {
   border-radius: 0;
   padding: 20px;
   background: transparent;
-  border-color:#00FF00;
+  border-color:grey;
   min-height: 70px;
   font-size: 16px;
   width: 100%;
@@ -2163,7 +2163,7 @@ form .padding-left-15 {
 .contact-icon {
   display: inline-block;
   font-size: 30px;
-  color:#00FF00;
+  color:grey;
   min-width: 56px;
   line-height: 1;
 }
@@ -2308,8 +2308,8 @@ form .padding-left-15 {
     padding: 20px 0;
   }
   /* ==================
-	Portfolio Single Page 
-	===================== */
+  Portfolio Single Page 
+  ===================== */
   .protfolio-mixitup-btn .th-btn {
     display: block;
     margin: 0 auto 20px;
@@ -2334,8 +2334,8 @@ form .padding-left-15 {
     padding: 0 15px 60px;
   }
   /* ==================
-	blog Page 
-	===================== */
+  blog Page 
+  ===================== */
   .blog {
     padding: 20px 0;
   }
@@ -2361,8 +2361,8 @@ form .padding-left-15 {
     padding: 23px 20px;
   }
   /* ==================
-	Contact Page 
-	===================== */
+  Contact Page 
+  ===================== */
   .contact-info {
     position: static;
     padding: 30px 0 0;
@@ -2415,7 +2415,7 @@ form .padding-left-15 {
     display: inline-block;
   }
   /* Blog page
-	============= */
+  ============= */
   .video-section {
     max-width: 100%;
     width: 100%;
@@ -2453,14 +2453,14 @@ form .padding-left-15 {
 
 @media only screen and (min-width: 992px) and (max-width: 1024px) {
   /* case study page
-	============= */
+  ============= */
   /* portfolio 
-	============= */
+  ============= */
   .portfolio-single-info {
     padding: 20px;
   }
   /* Blog page
-	============= */
+  ============= */
   .blog-content {
     right: -165px;
   }

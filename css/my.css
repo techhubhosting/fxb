@@ -7,4 +7,15 @@ width: 200px;}
 .ubc{height: 300px;width: 200px;}
 .youtube-channel{width: 50px}
 .logo-edit{height: 50px;width: 80px;}
+.img-edit{
+	 margin: 0 auto;
+    width: 100%;
+    padding: 100px 0px;
+}
 
+  .contact-img img {
+    width: 100%;
+  }
+  .header-text{
+  	font-size: 20px
+  }
