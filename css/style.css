@@ -753,12 +753,13 @@ div.loading {
 .case-study-content {
   padding-top: 58px;
   padding-bottom: 90px;
+
 }
 
 .case-study-content:nth-child(odd) {
   padding-top: 100px;
   padding-bottom: 180px;
-  background: #121212;
+  background: white;
 }
 
 /**********************************************

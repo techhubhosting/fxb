@@ -19,3 +19,32 @@ width: 200px;}
   .header-text{
   	font-size: 20px
   }
+.case-study1 {
+  padding-top: 80px;
+  background:white;
+}
+
+.case-study1 .content h4 {
+  padding-bottom: 13px;
+  font-family: "Spline Sans", sans-serif;
+  font-size: 18px;
+  text-transform: uppercase;
+  color:black;
+  font-weight: bold;
+}
+
+.case-study1 .content p {
+  font-size: 14px;
+  color: black;
+}
+
+.case-study1 .content .btn {
+  margin-top: 30px;
+}
+.case-study-title{
+	font-size: 30px;
+	color: black
+}
+.case-study-white{
+color: white;
+}
