@@ -226,7 +226,7 @@ button:hover, button:focus {
   bottom: 0;
   height: 3px;
   width: 70px;
-  background: white;
+  background: grey;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
 }
@@ -281,7 +281,7 @@ button:hover, button:focus {
   background: rgba(0, 0, 0, 0.73) none repeat scroll 0 0;
   margin-bottom: 0;
   border-bottom: 0;
-  padding: 20px 0;
+  padding: 5px 0;
   transition: .3s all;
 }
 
@@ -768,11 +768,12 @@ div.loading {
 .clients-logo {
   padding: 100px 0;
   background-attachment: fixed;
+  background: white;
 }
 
 .clients-logo .block {
   padding: 40px 0;
-  background: rgba(0, 0, 0, 0.7);
+  background: white;
   transition: 0.5s;
   height: 200px;
 }
@@ -782,7 +783,7 @@ div.loading {
 }
 
 .clients-logo .block:hover {
-  background: #fff;
+  background: black;
 }
 
 .clients-logo .block:hover img {
@@ -1150,7 +1151,7 @@ hr.hr-border {
 ***********************************************/
 .team {
   padding: 65px 0 0;
-  background: #0f0f0f;
+  background: white;
   overflow-x: hidden;
 }
 
