@@ -20,7 +20,7 @@ body {
 
 /* Heading Fonts Size */
 h1, h2, h3 {
-font-family: 'Spline Sans', sans-serif;
+font-family: 'Fira Sans', sans-serif;
   color:white;
 }
 
@@ -720,7 +720,7 @@ div.loading {
 
 .case-study .content h4 {
   padding-bottom: 13px;
-  font-family: "Spline Sans", sans-serif;
+  font-family: 'Fira Sans', sans-serif;
   font-size: 18px;
   text-transform: uppercase;
   color: white;
@@ -1194,7 +1194,7 @@ hr.hr-border {
 
 .overlay .content h4 {
   margin-bottom: 3px;
-  font-family: "Spline Sans", sans-serif;
+  font-family: 'Fira Sans', sans-serif;
   text-transform: uppercase;
   margin: 0;
   font-weight: 500;
