@@ -101,7 +101,7 @@ button:hover, button:focus {
   text-transform: uppercase;
   font-weight: 600;
   letter-spacing: 1px;
-  padding: 11px 18px;
+  padding: 10px 20px;
   transition: 0.5s;
 }
 

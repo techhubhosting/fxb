@@ -1,5 +1,5 @@
 .contact-h1{font-size:30px;}
-.link-color{color: grey;}
+.link-color{color: green;}
 .feature-logos{height: 1000px;width: 100px;}
 .ntv{height: 300px;width: 150px;}
 .youtube-logo{height: 300px;
@@ -11,7 +11,6 @@ width: 200px;}
 	 margin: 0 auto;
     width: 100%;
     padding: 100px 0px;
-	opacity: 1;
 }
   .contact-img img {
     width: 100%;
@@ -47,4 +46,12 @@ width: 200px;}
 }
 .case-study-white{
 color: white;
+}
+.button{
+text-align: center;
+}
+.read{
+	border-radius: 50px;
+	border-color: blue;
+	background: white;
 }
