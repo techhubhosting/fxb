@@ -1,5 +1,5 @@
 .contact-h1{font-size:30px;}
-.link-color{color: green;}
+.link-color{color: grey;}
 .feature-logos{height: 1000px;width: 100px;}
 .ntv{height: 300px;width: 150px;}
 .youtube-logo{height: 300px;
@@ -11,6 +11,7 @@ width: 200px;}
 	 margin: 0 auto;
     width: 100%;
     padding: 100px 0px;
+	opacity: 1;
 }
   .contact-img img {
     width: 100%;
