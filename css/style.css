@@ -278,7 +278,7 @@ button:hover, button:focus {
  */
 /*logo style*/
 .navigation {
-  background: rgba(0, 0, 0, 0.73) none repeat scroll 0 0;
+  background: black none repeat scroll 0 0;
   margin-bottom: 0;
   border-bottom: 0;
   padding: 5px 0;
@@ -290,7 +290,7 @@ button:hover, button:focus {
 }
 
 .sticky-header {
-  background: rgba(0, 0, 0, 0.73);
+  background: black;
 }
 
 .menu li a {
@@ -308,7 +308,7 @@ button:hover, button:focus {
   position: absolute;
   left: 50%;
   bottom: -2px;
-  opacity: 0;
+  opacity: -10;
   width: 0;
   height: 1px;
   transition: 0.5s;
