@@ -62,10 +62,23 @@ text-align: center;
 }
 .team-names{
   font-family: Fira Sans;
-  color: white;
+  color: grey;
+  font-size: 35px;
 }
 .team-edit{
-  height: 77px;
-  width: 77px;
-  border-radius: 50px;
+  height: 350px;
+  
+
+}
+.team-know{
+  font-size: 45px;
+  font-family: Fira Sans;
+}
+#team-img{
+  height:400px;
+  width:400px
+}
+.case-description{
+  font-family: Fira Sans;
+  font-size: 50px;
 }
