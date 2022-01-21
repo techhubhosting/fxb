@@ -29,7 +29,7 @@ h1, h2 {
 }
 
 h4 {
-  font-family: "Work Sans", sans-serif;
+  font-family: "Fira Sans", sans-serif;
 }
 
 h1 {
@@ -136,8 +136,8 @@ button:hover, button:focus {
 }
 
 #google-map {
-  width: 100%;
-  height: 10px;
+   width: 100%;
+  height: 660px;
 }
 
 /* Full page video and popup video overrite */
@@ -969,7 +969,7 @@ div.loading {
 }
 
 .contact-call-to-action #map {
-  height: 10px;
+   height: 410px;
 }
 
 .contact-call-to-action .block h2 {
@@ -2035,14 +2035,14 @@ hr.hr-border {
 }
 
 .comments-author {
-  color: yellow;
+  color: grey;
   position: relative;
   padding-bottom: 6px;
   display: inline-block;
   transition: 0.5s;
   text-transform: uppercase;
   font-size: 16px;
-  border-bottom: 1px solid yellow;
+  border-bottom: 1px solid grey;
 }
 
 .comments-body {
@@ -2129,7 +2129,7 @@ form .padding-left-15 {
 }
 
 .contact-map #map {
-  height: 300px;
+  height: 700px;
 }
 
 .contact-map .contact-info {

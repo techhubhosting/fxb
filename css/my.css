@@ -60,3 +60,12 @@ text-align: center;
   width: 100px;
   border-radius: 50px
 }
+.team-names{
+  font-family: Fira Sans;
+  color: white;
+}
+.team-edit{
+  height: 77px;
+  width: 77px;
+  border-radius: 50px;
+}
