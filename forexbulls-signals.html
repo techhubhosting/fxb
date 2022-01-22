@@ -165,10 +165,55 @@
                   </p>
                 </li>
               </ul>
+<!-- Payment Button-->
+              <div id="smart-button-container">
+      <div style="text-align: center;">
+        <div id="paypal-button-container"></div>
+      </div>
+    </div>
+  <script src="https://www.paypal.com/sdk/js?client-id=sb&enable-funding=venmo&currency=USD" data-sdk-integration-source="button-factory"></script>
+  <script>
+    function initPayPalButton() {
+      paypal.Buttons({
+        style: {
+          shape: 'pill',
+          color: 'white',
+          layout: 'vertical',
+          label: 'paypal',
+          
+        },
 
-              <a href="https://flutterwave.com/pay/forexbulls1" target="_blank">
-              <input type="button" class="btn btn-default btn-main th-btn-border" value="Order Now">
-            </a>
+        createOrder: function(data, actions) {
+          return actions.order.create({
+            purchase_units: [{"description":"Forex Bulls Premium Signals Valid for 1 Month","amount":{"currency_code":"USD","value":20}}]
+          });
+        },
+
+        onApprove: function(data, actions) {
+          return actions.order.capture().then(function(orderData) {
+            
+            // Full available details
+            console.log('Capture result', orderData, JSON.stringify(orderData, null, 2));
+
+            // Show a success message within this page, e.g.
+            const element = document.getElementById('paypal-button-container');
+            element.innerHTML = '';
+            element.innerHTML = '<h3>Thank you for your payment!</h3>';
+
+            // Or go to another URL:  actions.redirect('thank_you.html');
+            
+          });
+        },
+
+        onError: function(err) {
+          console.log(err);
+        }
+      }).render('#paypal-button-container');
+    }
+    initPayPalButton();
+  </script>
+              <!-- Payment Button-->
+
             </div>
           </div>
         </div>
@@ -214,9 +259,54 @@
                   </p>
                 </li>
               </ul>
-              <a href="https://flutterwave.com/pay/forexbulls3" target="_blank">
-              <input type="button" class="btn btn-default btn-main th-btn-border" value="Order Now">
-            </a>
+           <!--Payment Button -->
+<div id="smart-button-container">
+      <div style="text-align: center;">
+        <div id="paypal-button-container"></div>
+      </div>
+    </div>
+  <script src="https://www.paypal.com/sdk/js?client-id=sb&enable-funding=venmo&currency=USD" data-sdk-integration-source="button-factory"></script>
+  <script>
+    function initPayPalButton() {
+      paypal.Buttons({
+        style: {
+          shape: 'pill',
+          color: 'black',
+          layout: 'vertical',
+          label: 'paypal',
+          
+        },
+
+        createOrder: function(data, actions) {
+          return actions.order.create({
+            purchase_units: [{"description":"Forex Bulls Premium Signals Valid for 3 Months","amount":{"currency_code":"USD","value":50}}]
+          });
+        },
+
+        onApprove: function(data, actions) {
+          return actions.order.capture().then(function(orderData) {
+            
+            // Full available details
+            console.log('Capture result', orderData, JSON.stringify(orderData, null, 2));
+
+            // Show a success message within this page, e.g.
+            const element = document.getElementById('paypal-button-container');
+            element.innerHTML = '';
+            element.innerHTML = '<h3>Thank you for your payment!</h3>';
+
+            // Or go to another URL:  actions.redirect('thank_you.html');
+            
+          });
+        },
+
+        onError: function(err) {
+          console.log(err);
+        }
+      }).render('#paypal-button-container');
+    }
+    initPayPalButton();
+  </script>
+<!--Payment Button -->
             </div>
           </div>
         </div>
@@ -262,10 +352,55 @@
                   </p>
                 </li>
               </ul>
+<!--Payment Button -->
+<div id="smart-button-container">
+      <div style="text-align: center;">
+        <div id="paypal-button-container"></div>
+      </div>
+    </div>
+  <script src="https://www.paypal.com/sdk/js?client-id=sb&enable-funding=venmo&currency=USD" data-sdk-integration-source="button-factory"></script>
+  <script>
+    function initPayPalButton() {
+      paypal.Buttons({
+        style: {
+          shape: 'pill',
+          color: 'black',
+          layout: 'vertical',
+          label: 'paypal',
+          
+        },
 
-              <a href="https://flutterwave.com/pay/forexbulls6" target="_blank">
-              <input type="button" class="btn btn-default btn-main th-btn-border" value="Order Now">
-          </a>
+        createOrder: function(data, actions) {
+          return actions.order.create({
+            purchase_units: [{"description":"Forex Bulls Premium Signals Valid for 6 Months","amount":{"currency_code":"USD","value":100}}]
+          });
+        },
+
+        onApprove: function(data, actions) {
+          return actions.order.capture().then(function(orderData) {
+            
+            // Full available details
+            console.log('Capture result', orderData, JSON.stringify(orderData, null, 2));
+
+            // Show a success message within this page, e.g.
+            const element = document.getElementById('paypal-button-container');
+            element.innerHTML = '';
+            element.innerHTML = '<h3>Thank you for your payment!</h3>';
+
+            // Or go to another URL:  actions.redirect('thank_you.html');
+            
+          });
+        },
+
+        onError: function(err) {
+          console.log(err);
+        }
+      }).render('#paypal-button-container');
+    }
+    initPayPalButton();
+  </script>
+<!--Payment Button -->
+
             </div>
           </div>
         </div>
@@ -295,7 +430,7 @@
                             ========================== -->
                             <div class="footer-address">
                                 <h3 class="footer-title">Address</h3>
-                                <p>Kampala Road Uganda</p>
+                                <p>Ntinda, Kiwatule Road, Kampala</p>
                                 <p class="contact-address">
                                     Call us : <a href="tel:+256 702895853">+256 702895853 </a> <br>
                                     Email us : <a href="forexbulls22@gmail.com">forexbulls22@gmail.com</a>
