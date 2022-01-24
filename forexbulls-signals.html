@@ -270,18 +270,17 @@
         </div>
       </div>
     </div>
-    <div class="paypal-payment">
- <div id="smart-button-container">
+
+<div id="smart-button-container">
       <div style="text-align: center;">
         <div style="margin-bottom: 1.25rem;">
-          <h2>BUY NOW</h2>
-          <select id="item-options"><option value="Basic Tier" price="20">Basic Tier - 20 USD</option><option value="Standard Tier" price="50">Standard Tier - 50 USD</option><option value="Premium Tier" price="100">Premium Tier - 100 USD</option></select>
+          <p>BUY NOW</p>
+          <select id="item-options"><option value="Basic Tier" price="20">Basic Tier - 20 USD</option><option value="Standard Tier" price="50">Standard Tier - 50 USD</option><option value="Premium Tier" price="100">Premium Tier - 100 USD</option><option value="Test Tier" price="1">Test Tier - 1 USD</option></select>
           <select style="visibility: hidden" id="quantitySelect"></select>
         </div>
       <div id="paypal-button-container"></div>
       </div>
     </div>
-     </div>
     <script src="https://www.paypal.com/sdk/js?client-id=AbGe1hIMHFv178zI-EZ_-jRPEv1Jc2NXTK7PErPKSAxDLUx61Ad5rUZj3bffPEn-sByrfjtZfCLjaH0X&enable-funding=venmo&currency=USD" data-sdk-integration-source="button-factory"></script>
     <script>
       function initPayPalButton() {
@@ -292,14 +291,14 @@
     if (!isNaN(quantity)) {
       quantitySelect.style.visibility = "visible";
     }
-    var orderDescription = 'FOREX BULLS SIGNALS';
+    var orderDescription = 'BUY NOW';
     if(orderDescription === '') {
       orderDescription = 'Item';
     }
     paypal.Buttons({
       style: {
         shape: 'pill',
-        color: 'silver',
+        color: 'black',
         layout: 'vertical',
         label: 'paypal',
         
@@ -363,7 +362,7 @@
           element.innerHTML = '';
           element.innerHTML = '<h3>Thank you for your payment!</h3>';
 
-          actions.redirect('https://t.me/+RE7eapWEssdhMWVk');
+ actions.redirect('https://t.me/+RE7eapWEssdhMWVk');
 
         });
       },
@@ -374,7 +373,6 @@
   }
   initPayPalButton();
     </script>
-
   </section>
 
 </main>
