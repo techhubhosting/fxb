@@ -84,6 +84,7 @@ text-align: center;
 }
 .paypal-payment{
   color: grey;
-font-size: 18px;
-font-family: Fira Sans;
+  font-size: 16px;
+  font-family: Fira Sans;
+  text-align: center;
 }
