@@ -270,6 +270,7 @@
         </div>
       </div>
     </div>
+    <div id="paypal-payment">
  <div id="smart-button-container">
       <div style="text-align: center;">
         <div style="margin-bottom: 1.25rem;">
@@ -280,6 +281,7 @@
       <div id="paypal-button-container"></div>
       </div>
     </div>
+     </div>
     <script src="https://www.paypal.com/sdk/js?client-id=AbGe1hIMHFv178zI-EZ_-jRPEv1Jc2NXTK7PErPKSAxDLUx61Ad5rUZj3bffPEn-sByrfjtZfCLjaH0X&enable-funding=venmo&currency=USD" data-sdk-integration-source="button-factory"></script>
     <script>
       function initPayPalButton() {
@@ -290,14 +292,14 @@
     if (!isNaN(quantity)) {
       quantitySelect.style.visibility = "visible";
     }
-    var orderDescription = 'BUY FOREX BULLS SIGNALS';
+    var orderDescription = 'FOREX BULLS SIGNALS';
     if(orderDescription === '') {
       orderDescription = 'Item';
     }
     paypal.Buttons({
       style: {
         shape: 'pill',
-        color: 'black',
+        color: 'silver',
         layout: 'vertical',
         label: 'paypal',
         
@@ -372,6 +374,7 @@
   }
   initPayPalButton();
     </script>
+
   </section>
 
 </main>
