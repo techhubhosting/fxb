@@ -728,8 +728,9 @@ div.loading {
 }
 
 .case-study .content p {
-  font-size: 15px;
-  color: rgba(175, 175, 175, 0.8);
+  font-size: 16px;
+  color: grey;
+  font-weight: bold;
 }
 
 .case-study .content .btn {
@@ -2129,7 +2130,7 @@ form .padding-left-15 {
 }
 
 .contact-map #map {
-  height: 700px;
+  height: 250px;
 }
 
 .contact-map .contact-info {
