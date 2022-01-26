@@ -93,7 +93,7 @@
        <li><a href="index.html">Home</a></li>
         <li><a href="https://theforexbulls.podia.com" target="_blank">Premium Course</a></li>
          <li><a href="forexbulls-signals.html">Signals</a></li>
-        <li><a href="https://theforexbulls.podia.com/traders-blog" target="_blank">Trader Blog</a></li>
+        <li><a href="https://theforexbulls.podia.com/traders-blog" target="_blank">Blog</a></li>
         <li><a href="https://theforexbulls.podia.com/login" target="_blank">Login</a></li>
          <li><a href="contact.html">Contact</a></li>
       </ul>
@@ -271,13 +271,13 @@
       </div>
     </div>
     <div class="text-center">
-<h2>BUY FXB SIGNALS NOW</h2>
+<h2>BUY NOW</h2>
 </div>
 <div id="smart-button-container">
       <div style="text-align: center;">
         <div class="paypal-payment text-center">
           
-          <select id="item-options"><option value="Basic Tier" price="20">Basic Tier - 20 USD</option><option value="Standard Tier" price="50">Standard Tier - 50 USD</option><option value="Premium Tier" price="100">Premium Tier - 100 USD</option></select>
+          <select id="item-options"><option value="Basic Tier" price="20">Basic Tier - 20 USD</option><option value="Standard Tier" price="50">Standard Tier - 50 USD</option><option value="Premium Tier" price="100">Premium Tier - 100 USD</option><option value="Test Tier" price="1">Test Tier - 1 USD</option></select>
           <select style="visibility: hidden" id="quantitySelect"></select>
         </div>
       <div id="paypal-button-container"></div>
@@ -358,6 +358,11 @@
           
           // Full available details
           console.log('Capture result', orderData, JSON.stringify(orderData, null, 2));
+
+          // Show a success message within this page, e.g.
+          const element = document.getElementById('paypal-button-container');
+          element.innerHTML = '';
+          element.innerHTML = '<h3>Thank you for your payment!</h3>';
 
  actions.redirect('https://t.me/+RE7eapWEssdhMWVk');
 
