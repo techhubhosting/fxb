@@ -1,0 +1,92 @@
+.contact-h1{font-size:30px;}
+.link-color{color: green;}
+.feature-logos{height: 1000px;width: 100px;}
+.ntv{height: 300px;width: 150px;}
+.youtube-logo{height: 300px;
+width: 200px;}
+.ubc{height: 300px;width: 200px;}
+.youtube-channel{width: 50px}
+.logo-edit{height: 50px;width: 80px;}
+.img-edit{
+	 margin: 0 auto;
+    width: 100%;
+    padding: 100px 0px;
+}
+  .contact-img img {
+    width: 100%;
+  }
+  .header-text{
+  	font-size: 15px
+  }
+.case-study1 {
+  padding-top: 80px;
+  background:white;
+}
+
+.case-study1 .content h4 {
+  padding-bottom: 13px;
+  font-family: "Spline Sans", sans-serif;
+  font-size: 18px;
+  text-transform: uppercase;
+  color:black;
+  font-weight: bold;
+}
+
+.case-study1 .content p {
+  font-size: 14px;
+  color: black;
+}
+
+.case-study1 .content .btn {
+  margin-top: 30px;
+}
+.case-study-title{
+	font-size: 30px;
+	color: black
+}
+.case-study-white{
+color: white;
+}
+.button{
+text-align: center;
+}
+.read{
+	border-radius: 50px;
+	border-color: blue;
+	background: white;
+}
+.daniel{
+  height: 100px;
+  width: 100px;
+  border-radius: 50px
+}
+.team-names{
+  font-family: Fira Sans;
+  color: grey;
+  font-size: 35px;
+}
+.team-edit{
+  height: 350px;
+  
+
+}
+.team-know{
+  font-size: 45px;
+  font-family: Fira Sans;
+}
+#team-img{
+  height:400px;
+  width:400px
+}
+.case-description{
+  font-family: Fira Sans;
+  font-size: 50px;
+}
+.paypal-payment{
+  color: grey;
+  font-size: 16px;
+  font-family: Fira Sans;
+  text-align: center;
+  margin-bottom: 1.25rem;
+}
+
