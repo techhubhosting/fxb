@@ -1,0 +1,172 @@
+.contact-h1{font-size:30px;}
+.logo-edit{height: 50px;width: 80px;}
+.img-edit{
+	 margin: 0 auto;
+    width: 100%;
+    padding: 60px 0px;
+}
+  .contact-img img {
+    width: 100%;
+  }
+  .header-text{
+  	font-size: 20px;
+    color:white;
+  }
+.case-study1 {
+  padding-top: 80px;
+  background: rgb(62,3,80);
+  background: radial-gradient(circle, rgba(62,3,80,1) 4%, rgba(19,24,32,1) 32%, rgba(19,24,32,1) 63%, rgba(62,3,80,1) 100%);
+}
+
+.case-study1 .content h4 {
+  padding-bottom: 13px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  text-transform: uppercase;
+  color:#8E99B3;
+  font-weight: bold;
+}
+
+.case-study1 .content p {
+  font-size: 14px;
+  color: #8E99B3;
+}
+
+.case-study1 .content .btn {
+  margin-top: 30px;
+}
+.case-study-title{
+    font-size: 30px;
+    color: white
+}
+.case-study-white{
+color: white;
+}
+.button{
+text-align: center;
+}
+.read{
+	border-radius: 50px;
+	border-color: blue;
+	background: white;
+}
+.daniel{
+  height: 100px;
+  width: 100px;
+  border-radius: 50px
+}
+
+#team-img{
+  height:400px;
+  width:400px
+}
+.case-description{
+  font-family: Montserrat;
+  font-size: 50px;
+}
+.paypal-payment{
+  color: grey;
+  font-size: 16px;
+  font-family: Montserrat;
+  text-align: center;
+  margin-bottom: 1.25rem;
+}
+#img-center{
+  background: center;
+}
+.iframe-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1000;
+  height: 500;
+}
+.iframe{
+width: 500px;
+}
+.my_class_name {
+  padding: 6px;
+  border: 9px inset #e0e0e0;
+}
+*
+{
+  margin: 0;
+  padding: 0;
+  font-family: "montserrat", sans-serif;
+}
+
+.testimonials
+{
+  padding: 40px 0;
+  background: rgb(62,3,80);
+  background: radial-gradient(circle, rgba(62,3,80,1) 4%, rgba(19,24,32,1) 32%, rgba(19,24,32,1) 63%, rgba(62,3,80,1) 100%);
+  color:#8E99B3;
+  text-align: center;
+}
+
+.testimonial-inner
+{
+  max-width: 1200px;
+  margin: auto;
+  overflow: hidden;
+  padding: 0 20px;
+  font-family: "Poppins";
+}
+
+.border
+{
+  width: 160px;
+  height: 5px;
+  background: #6ab04c;
+  margin: 26px auto;
+}
+
+.row
+{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.col
+{
+  flex: 33.33%;
+  max-width: 33.33%;
+  box-sizing:  border-box;
+  padding: 15px;
+}
+
+.testimonial
+{
+background: transparent;
+  padding: 30px;
+}
+
+.testimonial img
+{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.name
+{
+  font-size: 20px;
+  text-transform: uppercase;
+  margin: 20px 0;
+}
+
+.stars
+{
+  color: #f0932b;
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 960px)
+{
+  .col
+  {
+    flex: 100%;
+    max-width: 80%;
+  }
+}
