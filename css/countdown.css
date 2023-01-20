@@ -1,0 +1,90 @@
+.countdown-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+   
+}
+
+.big-text {
+    font-size: 50px;
+    line-height: 1;
+    margin: 1rem 2rem;
+
+
+}
+
+.countdown-el {
+    text-align: center;
+  
+}
+
+.countdown-el span {
+    font-size: 1.3rem;
+}
+#days{
+ font-size:30px;
+}
+#hours{
+    font-size:30px;
+   }
+   #mins{
+    font-size:30px;
+   }
+   #seconds{
+    font-size:30px;
+   }
+
+
+/* (B) GALLERY WRAPPER */
+.gallery {
+  /* (B1) GRID LAYOUT - 3 IMAGES PER ROW */
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+ 
+  /* (B2) OPTIONAL WIDTH RESTRICT */
+
+  margin: 0 auto;
+  overflow: hidden;
+}
+/* (C) GALLERY IMAGES */
+.gallery img {
+    /* (C1) DIMENSION */
+    width: 100%;
+    height: 400px; /* optional */
+    padding: 5px;
+   
+    /* (C2) COLORS */
+border-radius: 100px;
+ 
+   
+    /* (C3) IMAGE RESIZE */
+    /* cover | contain | fill | scale-down */
+    object-fit: fill;
+    position: relative;
+  }
+  /* (D) ON SMALL SCREENS - 2 IMAGES PER ROW */
+@media only screen and (max-width: 600px) {
+    .gallery {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  /* (E) OPTIONAL ZOOM ON HOVER */
+.gallery img:hover {
+    z-index: 9;
+    transform: scale(1.3);
+    /* linear | ease | ease-in | ease-out | ease-in-out */
+    transition: transform ease 0.5s;
+  }
+  /* (F) FULLSCREEN MODE */
+.gallery img.full {
+    position: fixed;
+    top: 0; left: 0; z-index: 999;
+    width: 100vw; height: 100vh;
+    object-fit: fit;
+    background: rgba(0, 0, 0, 0.7);
+  }
+  .gallery img.full:hover {
+    z-index: 999;
+    transform: none;
+  }
