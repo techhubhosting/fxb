@@ -12,7 +12,7 @@ const hoursEl = document.getElementById("hours");
 const minsEl = document.getElementById("mins");
 const secondsEl = document.getElementById("seconds");
 
-const newYears = "31 Jan 2023 18:00:00 GMT+0300";
+const newYears = "31 Dec 2023 18:00:00 GMT+0300";
 
 function countdown() {
     const newYearsDate = new Date(newYears);
