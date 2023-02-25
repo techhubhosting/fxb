@@ -30,11 +30,7 @@ width: 200px;}
   }
   #homebg{
     background-image: url('../images/products-h1-bg.png');
-    background-position: center center;
-    background-repeat:  no-repeat;
-    background-attachment: fixed;
-    background-size:  cover;
-    background-color: white;
+ 
   }
 .case-study1 {
   padding-top: 50px;
