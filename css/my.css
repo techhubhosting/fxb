@@ -44,13 +44,13 @@ background-position:center;
   font-family: "Montserrat", sans-serif;
   font-size: 18px;
   text-transform: uppercase;
-  color:white;
+  color:#272A31;
   font-weight: bold;
 }
 
 .case-study1 .content p {
   font-size: 14px;
-  color: white;
+  color:#272A31;
   font-weight: 700;
 }
 
@@ -926,5 +926,5 @@ margin: 12px auto 0;
   background-color: #000;
 }
 .span-counter{
-  color: white;
+  color: #272A31;
 }
