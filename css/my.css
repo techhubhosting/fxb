@@ -928,3 +928,8 @@ margin: 12px auto 0;
 .span-counter{
   color: #272A31;
 }
+@media (max-width: 767px) {
+  .img-responsive{
+    display: none;
+  }
+}
