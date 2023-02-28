@@ -37,7 +37,7 @@
     <link rel="stylesheet" href="css/my.scss">
      <link rel="stylesheet" href="css/my.css">
      <link rel="stylesheet" href="css/countdown.css">
-
+     <script src="countdownjs.js"></script>
     <style>
       /* Always set the map height explicitly to define the size of the div
        * element that contains the map. */
@@ -75,9 +75,11 @@
         <li><a href="index.html">Home</a></li>
         <li><a href="daniel.html">Our Story</a></li>
          <li><a href="forexbulls-signals.html">Signals</a></li>
+          <li><a href="physical-classes.html">Physical Classes</a></li>
     <li><a href="https://affiliates.forexbullsacademy.com" target="_blank">Affiliates</a></li>
+        <li><a href="careers.html">Careers</a></li>
           <li><a href="resources.html">Resources</a></li>
-   
+       <li><a href="https://selar.co/txx9">Login</a></li>
          
       </ul>
     </div><!-- /.navbar-collapse -->
@@ -100,21 +102,28 @@
     •financial freedom <br>
 •time freedom and <br>
 •the lucrative trading lifestyle. <br>
-Let’s get you started on a life changing journey!</p>
-               <div class="countdown-container">
-                <div class="countdown-el hours-c">
-                    <p class="big-text" id="hours">0</p>
-                    <span class="span-counter">HOURS</span>
-                </div>
-                <div class="countdown-el mins-c">
-                    <p class="big-text" id="mins">0</p>
-                    <span class="span-counter">MINS</span>
-                </div>
-                <div class="countdown-el seconds-c">
-                    <p class="big-text" id="seconds">0</p>
-                    <span class="span-counter">SECONDS</span>
-                </div>
-            </div>
+Let’s get you started on a life changing journey! <br>
+</p>
+<div id="clockdiv">
+ <h4>EXCLUSIVE OFFER ENDS ON MARCH 7TH 10:00AM EAT</h4>
+ <P>Was <s>$150</s> Now Just <u><b>$66</b></u> </P>
+  <div>
+    <span class="days" id="day"></span>
+    <div class="smalltext">Days</div>
+  </div>
+  <div>
+    <span class="hours" id="hour"></span>
+    <div class="smalltext">Hours</div>
+  </div>
+  <div>
+    <span class="minutes" id="minute"></span>
+    <div class="smalltext">Minutes</div>
+  </div>
+  <div>
+    <span class="seconds" id="second"></span>
+    <div class="smalltext">Seconds</div>
+  </div>
+</div>
        
             </div>
        
@@ -147,17 +156,39 @@ Let’s get you started on a life changing journey!</p>
             <h2 class="inner-title animate-charcter">HOW THE PROGRAM WORKS </h2>
           </div>
         </div>
-         <div class="col-md-12">
-          <div class="text-center">
-           
-            <p>Its an earn as you learn program designed to equip you with the right skillset in making money trading forex. The world has changed, the way we make money, the way do business has change too, high income skillsets like day trading are the substitutes for formal education.</p>
-            <br>
-            <p>This is designed for people seeking financial freedom, whether you are working a 9-5 job or unemployed, or still a student or you have tried multiple online businesses like I did, this is for you.
-
-Explore a new world of financial freedom through your phone without having to work for anyone else.</p>
+        <div class="col-md-4">
+          <div class="service-item text-center">
+            <div class="services-icon">
+              <i class="tf-ion-android-globe"></i>
+            </div>
+            <h4 class="service-title">Full in-Depth Currency Tutorials</h4>
+            <p class="service-description">
+              Beginner to Advanced Tiers All in One
+            </p>
           </div>
         </div>
- 
+       <div class="col-md-4">
+          <div class="green-items text-center">
+            <div class="green-icon">
+              <i class="tf-ion-android-phone-portrait"></i>
+            </div>
+            <h4 class="green-title">One on One Online Training</h4>
+            <p class="green-description">
+            Request for one on one 
+            </p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="service-item text-center">
+            <div class="services-icon">
+              <i class="tf-ion-android-chat"></i>
+            </div>
+            <h4 class="service-title">Access to Two Private Groups</h4>
+            <p class="service-description">
+              Student interaction and discussions
+            </p>
+          </div>
+        </div>
 
             <div class="col-md-4  reveal">
           <div class="service-item text-center">
@@ -513,6 +544,7 @@ Explore a new world of financial freedom through your phone without having to wo
     <!-- Parallax -->
     <script src="plugins/parallax.min.js"></script>
     <script src="js/main.js"></script>
+   
     <script type="text/javascript"  src="https://apiv2.popupsmart.com/api/Bundle/398710" async></script>
 
     </body>
