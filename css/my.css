@@ -928,8 +928,34 @@ margin: 12px auto 0;
 .span-counter{
   color: #272A31;
 }
-@media (max-width: 767px) {
-  .img-responsive{
-    display: none;
-  }
+#clockdiv {
+  color: BLACK;
+  display: inline-block;
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+}
+#clockdiv > div {
+  background-color: transparent;
+  border-radius: 4px;
+  display: inline-block;
+  padding: 10px;
+}
+#clockdiv div > span {
+  background-color:white;
+  border-radius: 4px;
+  display: inline-block;
+  padding: 15px;
+}
+.smalltext {
+  font-size: 15px;
+  padding-top: 5px;
+  color:BLACK;
+}
+#demo {
+  color:BLACK;
+  font-weight: bold;
+}
+.limitedoffer{
+  color:BLACK;
 }
