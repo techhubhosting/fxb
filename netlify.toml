@@ -1,12 +1,4 @@
 [[headers]]
-  for = "/*.js"
-    [headers.values]
-      Cache-Control = "max-age=7776000, public"
-      
-[[headers]]
-  for = "/*.css"
-    [headers.values]
-      Cache-Control = "max-age=7776000, public"
 
 [[headers]]
   for = "/*.png"
