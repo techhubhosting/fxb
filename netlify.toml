@@ -1,0 +1,29 @@
+[[headers]]
+  for = "/*.js"
+    [headers.values]
+      Cache-Control = "max-age=7776000, public"
+
+[[headers]]
+  for = "/*.css"
+    [headers.values]
+      Cache-Control = "max-age=7776000, public"
+
+[[headers]]
+  for = "/*.png"
+    [headers.values]
+      Cache-Control = "max-age=7776000, public"
+
+[[headers]]
+  for = "/*.jpg"
+    [headers.values]
+      Cache-Control = "max-age=7776000, public"
+
+[[headers]]
+  for = "/*.jpeg"
+    [headers.values]
+      Cache-Control = "max-age=7776000, public"
+
+[[headers]]
+  for = "/*.gif"
+    [headers.values]
+      Cache-Control = "max-age=7776000, public"
