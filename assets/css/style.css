@@ -1,0 +1,278 @@
+.headline {
+    text-align: center; /* Center align on desktop */
+
+}
+
+
+@media (max-width: 767px) {
+    .headline {
+        text-align: left; /* Left align on mobile devices */
+    
+    }
+}
+
+@media (min-width: 768px) {
+  /* Apply styles for screens wider than 767px (typically tablets and desktops) */
+  .blog-border {
+      border: 3px solid #16f28b; /* Add top and bottom borders for wider screens */
+      border-top: none; /* Add top border with green color (#16f28b) */
+      border-bottom: none; /* Add bottom border with green color (#16f28b) */
+      border-left:3px solid #16f28b;
+      border-right:3px solid #16f28b;
+      box-shadow: 0 0 0 0 #16f28b;
+      border-radius: 15px;
+      
+  }
+}
+
+@media (max-width: 767px) {
+  /* Apply styles for screens smaller than 767px (typically mobile devices) */
+  .blog-border {
+      border-top: none; /* Add top border with green color (#16f28b) */
+      border-bottom: none; /* Add bottom border with green color (#16f28b) */
+      border-left:3px solid #16f28b;
+      border-right:3px solid #16f28b;
+      box-shadow: 0 0 0px #16f28b;
+      border-radius: 15px;
+      
+  }
+}
+.logos{
+    height: 48px;
+    width: 75px;
+    vertical-align: bottom;
+    margin-right: 0.5rem;
+    
+}
+@keyframes pulse {
+    0% {
+        text-shadow: 0 0 10px #00ff00;
+    }
+    50% {
+        text-shadow: 0 0 20px #00ff00;
+    }
+    100% {
+        text-shadow: 0 0 10px #00ff00;
+    }
+}
+.glow {
+    color: #00ff00;
+    animation: pulse 1s infinite;
+  
+}
+@keyframes slideInRight {
+    0% {
+    transform: translateX(-100%);
+    }
+    100% {
+    transform: translateX(0);
+    }
+    }
+    .content {
+    animation: 1s ease-in-out 0s 1 slideInRight;
+    }
+    .course {
+        animation: 1s ease-in-out 0s 1 fade-right;
+        }
+    .reveal{
+      position: relative;
+      transform: translateY(150px);
+      opacity: 0;
+      transition: 1s all ease-in-out;
+    }
+    
+    .reveal.active{
+      transform: translateY(0);
+      opacity: 1;
+    }
+    .active.fade-bottom {
+      animation: fade-bottom 1s ease-in;
+    }
+    .active.fade-left {
+      animation: fade-left 1s ease-in;
+    }
+    .active.fade-right {
+      animation: fade-right 1s ease-in;
+    }
+    @keyframes fade-bottom {
+      0% {
+        transform: translateY(50px);
+        opacity: 0;
+      }
+      100% {
+        transform: translateY(0);
+        opacity: 1;
+      }
+    }
+    @keyframes fade-left {
+      0% {
+        transform: translateX(-100px);
+        opacity: 0;
+      }
+      100% {
+        transform: translateX(0);
+        opacity: 1;
+      }
+    }
+    
+    @keyframes fade-right {
+      0% {
+        transform: translateX(100px);
+        opacity: 0;
+      }
+      100% {
+        transform: translateX(0);
+        opacity: 1;
+      }
+    }
+    .popout {
+      animation: popout 2s ease;
+      -webkit-animation: popout 2s ease;
+    }
+    @keyframes popout {
+      from{transform:scale(0)}
+      80%{transform:scale(1.2)}
+      to{transform:scale(1)}
+    }
+    @-webkit-keyframes popout {
+      from{-webkit-transform:scale(0)}
+      80%{-webkit-transform:scale(1.2)}
+      to{-webkit-transform:scale(1)}
+    }
+    .hidden{
+        opacity: 0;
+        filter: blur(5px);
+        transform: translateY(-100%);
+        transition: all 1s;
+        }
+        .show{
+        opacity: 1;
+        filter: blur(0);
+        transform: translateY(0);
+        }
+        .leftslide{
+          opacity: 0;
+          filter: blur(5px);
+          transform: translateX(-100%);
+          transition: all 1s;
+          }
+          .leftslideshow{
+          opacity: 1;
+          filter: blur(0);
+          transform: translateX(0);
+          }
+          .price {
+            color: red;
+            position: relative;
+        }
+        .price::after {
+            content: '';
+            position: absolute;
+            left: 0;
+            right: 0;
+            bottom: 50%;
+            border-bottom: 2px solid red;
+            transform: scaleX(0);
+            transform-origin: 0 50%;
+            animation: strike 1s infinite linear;
+        }
+        
+        @keyframes strike {
+            0% {
+                transform: scaleX(0);
+            }
+            50% {
+                transform: scaleX(1);
+            }
+            100% {
+                transform: scaleX(0);
+            }
+        }        
+
+.btn-center{
+  text-align: center;
+}
+.logo-footer{
+height: 80px;
+width: 100px;
+}
+.underlined {
+  background: rgb(63,94,251);
+background: linear-gradient(90deg, rgba(63,94,251,1) 0%, #16f28b 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+.slant{
+  font-style: italic;
+}
+.nopadding{
+  padding-top: 0px;
+}
+.button-link {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+.bg-silver{
+  background-color: silver !important;
+  color: black;
+}
+.bg-gold{
+  background-color: gold !important;
+   color: black;
+}.bg-diamond{
+  background-color: #B9F2FF !important;
+  color: black;
+}
+.iframe-container
+{position:relative;width:100%;padding-bottom:56.25%;height:0}
+.iframe-container 
+iframe{position:absolute;top:0;left:0;width:100%;height:100%}
+
+.col-lg-11 {
+    align-items: center;
+}
+
+.images_esc img {
+    max-width: 100%;
+    height: auto;
+}
+.embed-container{position:relative;padding-bottom:56.25%;height:0;overflow:hidden;margin-bottom:50px}.embed-container iframe{position:absolute;top:0;left:0;width:100%;height:100%;border-radius:10px}@media(max-width:767px){.col-md-6{width:100%}}
+.wistia-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px; /* Adjust the gap between videos */
+}
+
+.wistia-video {
+  flex: 1 0 calc(33.33% - 16px); /* Adjust the width based on the number of videos per row */
+  position: relative;
+  padding-bottom: 56.25%; /* Maintain 16:9 aspect ratio for the video */
+  height: 0;
+  overflow: hidden;
+}
+
+.wistia-video iframe {
+  position:absolute;top:0;left:0;width:100%;height:100%;border-radius:10px
+}
+
+.btn{
+  font-size: 2px;
+}
+.grid_blog_avatar .body_blog .short_desc {
+  text-overflow: unset;
+}
+.button-container {
+  white-space: nowrap;
+}
+
+.button-text {
+  white-space: normal;
+}
