@@ -276,3 +276,17 @@ iframe{position:absolute;top:0;left:0;width:100%;height:100%}
 .button-text {
   white-space: normal;
 }
+
+/* Media query for small devices (e.g., mobile) */
+@media only screen and (max-width: 768px) {
+  .hideme {
+      display: none; /* Hide the button on small devices */
+  }
+}
+/* Media query for iPad Pro or larger devices */
+@media only screen and (max-width: 912px) {
+  .hideme {
+      display: none; /* Ensure the button is visible on larger screens like iPad Pro */
+      /* Add additional styles as needed */
+  }
+}

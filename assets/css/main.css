@@ -5467,10 +5467,20 @@ header .navbar .navbar-collapse .nav_account.btn_demo3 .btn_sm_primary {
 }
 
 .crypto_dark .nav_account .btn_try {
-    background-color: rgba(255, 255, 255, 0.1) !important;
+    -webkit-background: linear-gradient(45deg, #6bb0f8 0%, #16f30b 100%) !important;
+    -moz-background: linear-gradient(45deg, #6bb0f8 0%, #16f30b 100%) !important;
+    -o-background: linear-gradient(45deg, #6bb0f8 0%, #16f30b 100%) !important;
+    -ms-background: linear-gradient(45deg, #6bb0f8 0%, #16f30b 100%) !important;
+    background: linear-gradient(45deg, #6bb0f8 0%, #16f30b 100%) !important;
     color: #ffffff;
 }
-
+.c-gradient {
+    -webkit-background: linear-gradient(45deg, #6bb0f8 0%, #16f30b 100%) !important;
+    -moz-background: linear-gradient(45deg, #6bb0f8 0%, #16f30b 100%) !important;
+    -o-background: linear-gradient(45deg, #6bb0f8 0%, #16f30b 100%) !important;
+    -ms-background: linear-gradient(45deg, #6bb0f8 0%, #16f30b 100%) !important;
+    background: linear-gradient(45deg, #6bb0f8 0%, #16f30b 100%) !important;
+}
 @media (max-width: 767px) {
     .crypto_dark .nav_account .btn_try {
         background-color: rgba(11, 34, 56, 0.1) !important;
