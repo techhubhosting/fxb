@@ -55,16 +55,26 @@
                   <!-- navbar -->
                   <nav class="navbar navbar-expand-lg navbar-light">
                     <a class="navbar-brand c-white" href="index.html">
-                      <img class="logos" src="https://forexbullscdn.web.app/assets/img/logodark.webp" loading="lazy" alt="logo" />
+                      <img class="logos" src="https://forexbullscdn.web.app/assets/img/logodark.webp" alt="logo" />
                     </a>
                     <button class="navbar-toggler menu ripplemenu" type="button" data-toggle="collapse"
                       data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                       aria-label="Toggle navigation">
-                      <svg viewBox="0 0 64 48">
-                        <path d="M19,15 L45,15 C70,15 58,-2 49.0177126,7 L19,37"></path>
-                        <path d="M19,24 L45,24 C61.2371586,24 57,49 41,33 L32,24"></path>
-                        <path d="M45,33 L19,33 C-8,33 6,-2 22,14 L45,37"></path>
+                      <svg class="icon-menu" viewBox="0 0 64 48">
+                        <!-- Hamburger Icon -->
+                        <g class="icon-menu-hamburger">
+                          <path d="M19,15 L45,15 C70,15 58,-2 49.0177126,7 L19,37"></path>
+                          <path d="M19,24 L45,24 C61.2371586,24 57,49 41,33 L32,24"></path>
+                          <path d="M45,33 L19,33 C-8,33 6,-2 22,14 L45,37"></path>
+                        </g>
+                        
+                        <!-- Close (X) Icon -->
+                        <g class="icon-menu-close" style="display: none;">
+                          <line x1="16" y1="16" x2="34" y2="34" stroke="white" stroke-width="3" />
+                          <line x1="16" y1="34" x2="34" y2="16" stroke="white" stroke-width="3" />
+                        </g>
                       </svg>
+                      
                     </button>
         
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -847,6 +857,7 @@
     <script>
       AOS.init();
     </script>
+    <script src="assets/js/app.js"></script>
 </body>
 
 </html>
