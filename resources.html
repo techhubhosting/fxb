@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -19,21 +18,13 @@
         <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
         <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
         <link rel="manifest" href="site.webmanifest">
-    <!-- Bootstrap 4.5 -->
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css" type="text/css" />
-    <!-- animate -->
-    <link rel="stylesheet" href="assets/css/animate.css" type="text/css" />
-    <!-- Swiper -->
-    <link rel="stylesheet" href="assets/css/swiper.min.css" />
-    <!-- icons -->
-    <link rel="stylesheet" href="assets/css/icons.css" type="text/css" />
-    <!-- aos -->
-    <link rel="stylesheet" href="assets/css/aos.css" type="text/css" />
-    <!-- main css -->
-    <link rel="stylesheet" href="assets/css/main.css" type="text/css" />
-    <!-- normalize -->
-    <link rel="stylesheet" href="assets/css/normalize.css" type="text/css" />
-    <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+    <link rel="stylesheet" href="assets/css/merged.css" type="text/css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" />
+    <link rel="preload" href="assets/fonts/text-font/CircularStd-Black.woff" as="font" type="font/woff" crossorigin>
+    <link rel="preload" href="assets/fonts/text-font/CircularStd-Bold.woff" as="font" type="font/woff" crossorigin>
+    <link rel="preload" href="assets/fonts/text-font/CircularStd-Book.woff" as="font" type="font/woff" crossorigin>
+    <link rel="preload" href="assets/fonts/text-font/CircularStd-Medium.woff" as="font" type="font/woff" crossorigin>
+    <script src="https://fast.wistia.com/assets/external/E-v1.js" async></script>
 
     <!-- js for Brwoser -->
     <!--[if lt IE 9]>
@@ -47,65 +38,63 @@
     <div id="wrapper">
         <div id="content">
             <div id="particles-js"></div>
-                  <!-- Start header -->
             <header class="header-nav-center crypto_dark" id="myNavbar">
-                <div class="container">
-                  <!-- navbar -->
-                  <nav class="navbar navbar-expand-lg navbar-light">
-                    <a class="navbar-brand c-white" href="index.html">
-                      <img class="logos" src="assets/img/logodark.webp" alt="logo" />
+              <div class="container">
+                <!-- navbar -->
+                <nav class="navbar navbar-expand-lg navbar-light">
+                  <a class="navbar-brand c-white" href="index.html">
+                    <img class="logos" src="https://forexbullscdn.web.app/assets/img/logodark.webp" loading="lazy" alt="logo" />
+                  </a>
+                  <button class="navbar-toggler menu ripplemenu" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <svg viewBox="0 0 64 48">
+                      <path d="M19,15 L45,15 C70,15 58,-2 49.0177126,7 L19,37"></path>
+                      <path d="M19,24 L45,24 C61.2371586,24 57,49 41,33 L32,24"></path>
+                      <path d="M45,33 L19,33 C-8,33 6,-2 22,14 L45,37"></path>
+                    </svg>
+                  </button>
+      
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto nav-pills d-block d-sm-none">
+                    
+                      <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                      </li> 
+                      <li class="nav-item">
+                        <a class="nav-link" href="forexbulls-signals.html">Signals</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="resources.html">Resources</a>
+                      </li>
+                    </ul>
+                    <div class="nav_account ml-auto">
+                     <a href="index.html">
+                      <button type="button" class="btn btn-default c-white hideme">
+                          Home
+                        </button>
+                     </a>
+                    <a href="forexbulls-signals.html">
+                      <button type="button" class="btn btn-default c-white hideme">
+                          Signals
+                         </button>
                     </a>
-                    <button class="navbar-toggler menu ripplemenu" type="button" data-toggle="collapse"
-                      data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                      aria-label="Toggle navigation">
-                      <svg viewBox="0 0 64 48">
-                        <path d="M19,15 L45,15 C70,15 58,-2 49.0177126,7 L19,37"></path>
-                        <path d="M19,24 L45,24 C61.2371586,24 57,49 41,33 L32,24"></path>
-                        <path d="M45,33 L19,33 C-8,33 6,-2 22,14 L45,37"></path>
-                      </svg>
-                    </button>
-        
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                      <ul class="navbar-nav mr-auto nav-pills d-block d-sm-none">
-                      
-                        <li class="nav-item">
-                          <a class="nav-link" href="index.html">Home</a>
-                        </li> 
-                        <li class="nav-item">
-                          <a class="nav-link" href="forexbulls-signals.html">Signals</a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link" href="resources.html">Resources</a>
-                        </li>
-                      </ul>
-                      <div class="nav_account ml-auto">
-                       <a href="index.html">
-                        <button type="button" class="btn btn-default c-white hideme">
-                            Home
-                          </button>
-                       </a>
-                      <a href="forexbulls-signals.html">
-                        <button type="button" class="btn btn-default c-white hideme">
-                            Signals
-                           </button>
+                      <a href="resources.html">
+                          <button type="button" class="btn btn-default c-white hideme">
+                              Resources
+                            </button>
                       </a>
-                        <a href="resources.html">
-                            <button type="button" class="btn btn-default c-white hideme">
-                                Resources
-                              </button>
-                        </a>
-                        <a href="https://selar.co/13c5d7" class="btn scale btn_sm_primary c-white btn_try effect-letter rounded-8 c-gradient">
-                            YES! Give Me Access NOW!
-                        </a>
-                        
-                      </div>
+                      <a href="https://selar.co/101n45" class="btn scale btn_sm_primary c-white btn_try effect-letter rounded-8 c-gradient">
+                          YES! Give Me Access NOW!
+                      </a>
+                      
                     </div>
-                  </nav>
-                  <!-- End Navbar -->
-                </div>
-                <!-- end container -->
-              </header>
-            <!-- End header -->
+                  </div>
+                </nav>
+                <!-- End Navbar -->
+              </div>
+              <!-- end container -->
+            </header>
             <!-- Fixed side menu -->
        
             <!-- End. Fixed side menu -->
@@ -117,7 +106,7 @@
           <div class="row justify-content-center text-center">
             <div class="col-md-8 col-lg-6">
               <div class="banner_title_inner margin-b-10">
-                <h1 class="c-white" data-aos="fade-up" data-aos-delay="0">
+                <h1 class="c-white">
                  Resources
                 </h1>
               </div>
@@ -162,7 +151,7 @@
                         </div>
                        
                       </div>
-                      <a href="https://selar.co/13c5d7">
+                      <a href="https://selar.co/101n45">
                       <div class="button--click margin-t-2 btn-center">
                         <button type="button" class="btn mx-0 btn-token btn_md_primary scale c-gradient">
                           YES! Give Me Access NOW! <br> ONLY $70 
@@ -183,7 +172,7 @@
                 <div class="row justify-content-md-center text-center">
                     <div class="col-md-8">
                         <a class="c-white" href="index.html">
-              <img src="assets/img/logodark.webp" alt="" class="logo-footer">
+              <img  src="https://forexbullscdn.web.app/assets/img/logodark.webp" loading="lazy" alt="Forex Bulls Resources" class="logo-footer">
             </a>
                         <div class="social--media">
                             <a href="https://www.youtube.com/channel/UCYzjsXNjQSkb-dgNTMhrvmA" target="_blank" class="btn so-link">
@@ -203,7 +192,7 @@
               </a>
                         </div>
                         <div class="other--links">
-                            <a href="https://selar.co/13c5d7">Forex Bulls 3.0 </a>
+                            <a href="https://selar.co/101n45">Forex Bulls 3.0 </a>
                             <a href="https://t.me/theforexbulls" target="_blank">Community</a>
                             <a href="forexbulls-signals.html">Signals</a>
                             <a href="resources.html">Resources</a>
@@ -219,7 +208,7 @@
                     </div>
                 </div>
             </div>
-            <img class="img-fluid img-footer" src="assets/img/footer.webp" alt="Forex Bulls Footer" />
+            <img class="img-fluid img-footer"  src="https://forexbullscdn.web.app/assets/img/footer.webp" loading="lazy"footer_fxelka.webp" alt="Forex Bulls Footer" />
         </footer>
 
         <!-- Back to top with progress indicator-->
