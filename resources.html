@@ -18,9 +18,8 @@
         <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
         <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
         <link rel="manifest" href="site.webmanifest">
-    <link rel="stylesheet" href="assets/css/mergedv3.css" type="text/css" />
-    <link rel="stylesheet" href="assets/css/mainv3.css">
-    <link rel="stylesheet" href="assets/css/stylev3.css">
+    <link rel="stylesheet" href="assets/css/merged.css" type="text/css" />
+    <link rel="stylesheet" href="assets/css/main.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" />
     <link rel="preload" href="assets/fonts/text-font/CircularStd-Black.woff" as="font" type="font/woff" crossorigin>
     <link rel="preload" href="assets/fonts/text-font/CircularStd-Bold.woff" as="font" type="font/woff" crossorigin>
@@ -50,10 +49,19 @@
                   <button class="navbar-toggler menu ripplemenu" type="button" data-toggle="collapse"
                     data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                     aria-label="Toggle navigation">
-                    <svg viewBox="0 0 64 48">
-                      <path d="M19,15 L45,15 C70,15 58,-2 49.0177126,7 L19,37"></path>
-                      <path d="M19,24 L45,24 C61.2371586,24 57,49 41,33 L32,24"></path>
-                      <path d="M45,33 L19,33 C-8,33 6,-2 22,14 L45,37"></path>
+                    <svg class="icon-menu" viewBox="0 0 64 48">
+                      <!-- Hamburger Icon -->
+                      <g class="icon-menu-hamburger">
+                        <path d="M19,15 L45,15 C70,15 58,-2 49.0177126,7 L19,37"></path>
+                        <path d="M19,24 L45,24 C61.2371586,24 57,49 41,33 L32,24"></path>
+                        <path d="M45,33 L19,33 C-8,33 6,-2 22,14 L45,37"></path>
+                      </g>
+                      
+                      <!-- Close (X) Icon -->
+                      <g class="icon-menu-close" style="display: none;">
+                        <line x1="16" y1="16" x2="36" y2="36" stroke="black" stroke-width="3" />
+                        <line x1="16" y1="36" x2="36" y2="16" stroke="black" stroke-width="3" />
+                      </g>
                     </svg>
                   </button>
       
@@ -224,7 +232,37 @@
 
     </div>
     <!-- End. warapper -->
-<script src="assets/js/app.js"></script>
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+  const navbarToggler = document.querySelector('.navbar-toggler');
+  const navbarCollapse = document.querySelector('#navbarSupportedContent');
+  const iconMenuHamburger = document.querySelector('.icon-menu-hamburger');
+  const iconMenuClose = document.querySelector('.icon-menu-close');
+
+  navbarToggler.addEventListener('click', function() {
+    navbarCollapse.classList.toggle('show');
+    toggleMenuIcon();
+  });
+
+  function toggleMenuIcon() {
+    iconMenuHamburger.style.display = navbarCollapse.classList.contains('show') ? 'none' : 'block';
+    iconMenuClose.style.display = navbarCollapse.classList.contains('show') ? 'block' : 'none';
+  }
+
+  // Close the navbar when clicking outside of it
+  document.addEventListener('click', function(event) {
+    const target = event.target;
+    const isNavbarToggler = target.closest('.navbar-toggler');
+    const isNavbarCollapse = target.closest('#navbarSupportedContent');
+
+    if (!isNavbarToggler && !isNavbarCollapse) {
+      navbarCollapse.classList.remove('show');
+      toggleMenuIcon();
+    }
+  });
+});
+
+    </script>
     <!-- jquery -->
     <script src="assets/js/jquery-3.5.0.js" type="text/javascript"></script>
     <!-- jquery-migrate -->
