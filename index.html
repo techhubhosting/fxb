@@ -276,7 +276,7 @@ This refund policy demonstrates how much we believe in our course and in your ab
     <script>
         document.addEventListener("DOMContentLoaded", function() {
           const intakeCountElement = document.getElementById("intake-count");
-          let intakeCount = 25;
+          let intakeCount = 24;
       
           function updateIntakeCount() {
             intakeCountElement.textContent = intakeCount;
@@ -285,13 +285,13 @@ This refund policy demonstrates how much we believe in our course and in your ab
           function decreaseIntakeCount() {
             intakeCount--;
             if (intakeCount < 0) {
-              intakeCount = 25; // Reset intake count to 30 when it reaches 0
+              intakeCount = 24; // Reset intake count to 30 when it reaches 0
             }
             updateIntakeCount();
           }
       
           function resetIntakeCount() {
-            intakeCount = 25; // Reset intake count to 30 at the start of each day
+            intakeCount = 24; // Reset intake count to 30 at the start of each day
             updateIntakeCount();
           }
       
