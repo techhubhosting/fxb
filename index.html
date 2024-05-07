@@ -238,7 +238,7 @@ This refund policy demonstrates how much we believe in our course and in your ab
                       <br>
                      <a href="https://selar.co/13c5d7">
                 <div class="title_sections_inner margin-b-4">
-                    <h4 class="c-blackk" id="intake-message">ONLY <span id="intake-count" >30</span> SPOTS LEFT FOR THIS <br> MONTH'S INTAKE</h4>
+                    <h4 class="c-blackk">ONLY <span id="spotsLeft">30</span> SPOTS LEFT FOR THIS <br> MONTH'S INTAKE</h4>
                 </div>
               </a>
 
@@ -273,44 +273,19 @@ This refund policy demonstrates how much we believe in our course and in your ab
 
     </div>
     <!-- End. warapper -->
-    <script>
-        document.addEventListener("DOMContentLoaded", function() {
-          const intakeCountElement = document.getElementById("intake-count");
-          let intakeCount = 24;
-      
-          function updateIntakeCount() {
-            intakeCountElement.textContent = intakeCount;
-          }
-      
-          function decreaseIntakeCount() {
-            intakeCount--;
-            if (intakeCount < 0) {
-              intakeCount = 24; // Reset intake count to 30 when it reaches 0
-            }
-            updateIntakeCount();
-          }
-      
-          function resetIntakeCount() {
-            intakeCount = 24; // Reset intake count to 30 at the start of each day
-            updateIntakeCount();
-          }
-      
-          updateIntakeCount();
-      
-          // Calculate milliseconds until the end of the day
-          const now = new Date();
-          const endOfDay = new Date(now.getFullYear(), now.getMonth(), now.getDate() + 1);
-          const millisecondsUntilEndOfDay = endOfDay - now;
-      
-          // Set interval to reset intake count at the end of the day
-          setTimeout(function() {
-            resetIntakeCount();
-            // Set interval to reset intake count at the end of each subsequent day
-            setInterval(resetIntakeCount, 24 * 60 * 60 * 1000); // 24 hours in milliseconds
-          }, millisecondsUntilEndOfDay);
-      
-        });
-      </script>
+<script>
+    // Get the current date
+    var currentDate = new Date();
+    
+    // Get the last day of the current month
+    var lastDayOfMonth = new Date(currentDate.getFullYear(), currentDate.getMonth() + 1, 0);
+    
+    // Calculate the remaining days in the month
+    var remainingDays = lastDayOfMonth.getDate() - currentDate.getDate();
+    
+    // Update the countdown timer
+    document.getElementById("spotsLeft").innerText = remainingDays;
+</script>
       
     <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
     <script>
