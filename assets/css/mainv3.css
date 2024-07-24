@@ -12235,11 +12235,11 @@ software_web
     font-size: 25px;
     font-weight: 600;
     color: black;
-    margin-bottom: 1.875rem;
+    margin-bottom:1px;
 }
 
 .pricing_section .blocks_pricing .item__price .number {
-    margin-bottom: 1.875rem;
+    margin-bottom:1px;
 }
 
 .pricing_section .blocks_pricing .item__price .number .n_price {
